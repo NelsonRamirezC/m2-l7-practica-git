@@ -1,0 +1,16 @@
+Ver versión de git instalada
+git --version / git -v
+
+
+Configurar usuario: git config --global user.name "Tu Nombre"
+
+Configurar email: git config --global user.email "tu@email.com"
+
+git config --list
+
+
+1. Iniciar git en el proyecto
+ git init
+
+3. Verificar estado del proyecto
+git status
