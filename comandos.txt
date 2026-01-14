@@ -14,3 +14,12 @@ git config --list
 
 3. Verificar estado del proyecto
 git status
+
+4. Agregar los cambios, archivos nuevos, etc. al área de prepacipon (staging area):
+git add . / git add --all / git add index.html
+
+5. Creamos una versión del proyecto
+git commit -m "Mensaje descriptivo de los cambios generados"
+
+6. Verificar el log de versiones existentes
+git log / git log --oneline
