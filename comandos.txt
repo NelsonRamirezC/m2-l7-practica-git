@@ -36,3 +36,6 @@ git checkout "hash de la versión" / git checkout feature/documento2
 9. En caso de querer descartar los últimos cambios en un documento para volver a la última versión estable utilizar:
 git restore documento1.txt ->previo a esto ejecutar: git status
 
+10. Comando para listar las ramas existentes
+git branch
+
