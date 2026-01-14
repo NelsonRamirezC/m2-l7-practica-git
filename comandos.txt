@@ -27,3 +27,12 @@ git log / git log --oneline
 7. Ver diferencia entre una versión y otra / entre diferentes ramas
 
 git diff "hash version a" "hash version b"
+
+
+8. para moverse a una rama especifica o a una versión utilizar:
+
+git checkout "hash de la versión" / git checkout feature/documento2
+
+9. En caso de querer descartar los últimos cambios en un documento para volver a la última versión estable utilizar:
+git restore documento1.txt ->previo a esto ejecutar: git status
+
