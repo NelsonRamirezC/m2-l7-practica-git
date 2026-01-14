@@ -23,3 +23,7 @@ git commit -m "Mensaje descriptivo de los cambios generados"
 
 6. Verificar el log de versiones existentes
 git log / git log --oneline
+
+7. Ver diferencia entre una versión y otra / entre diferentes ramas
+
+git diff "hash version a" "hash version b"
